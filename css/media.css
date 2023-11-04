@@ -1,0 +1,30 @@
+@media (max-width: 1140px){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right{
+        justify-content: center;
+    }
+}
+@media(max-width: 870px){
+    .footer .container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-list{
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    form{
+        width: 80%;
+    }
+}
+@media(max-width: 570px){
+    .right-card{
+        width: 100%;
+    }
+}
